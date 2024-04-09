@@ -8,7 +8,11 @@
 #define UP 0
 #define DOWN 1
 
-/*enum bool - Enumeration of boolean values*/
+/**
+ * enum bool - Enumeration of boolean values
+ * @true: true
+ * @false: false
+ */
 typedef enum bool
 {
 false = 0,
