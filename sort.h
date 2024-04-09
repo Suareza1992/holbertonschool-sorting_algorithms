@@ -37,6 +37,10 @@ void swap_ints(int *a, int *b);
 void print_array(const int *array, size_t size);
 void print_list(const listint_t *list);
 
+/*Helper for quick sort*/
+int partition(int *array, int low, int high, size_t size);
+void sort_helper(int *array, int low, int high, size_t size);
+
 /*Regular functions prototypes*/
 void bubble_sort(int *array, size_t size);
 void insertion_sort_list(listint_t **list);
